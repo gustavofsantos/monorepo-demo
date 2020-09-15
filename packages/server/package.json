@@ -19,9 +19,11 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "ts-node": "^9.0.0"
   },
   "devDependencies": {
+    "@types/express": "^4.17.8",
     "ts-node": "^9.0.0"
   }
 }
