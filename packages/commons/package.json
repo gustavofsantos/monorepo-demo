@@ -1,0 +1,19 @@
+{
+  "name": "@demo/commons",
+  "version": "0.0.0",
+  "description": "",
+  "author": "",
+  "homepage": "",
+  "license": "MIT",
+  "main": "lib/commons.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\""
+  }
+}

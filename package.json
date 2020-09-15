@@ -7,7 +7,8 @@
   "scripts": {
     "dev:all": "lerna run dev --parallel",
     "dev:server": "lerna run dev --scope=@demo/server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:all": "lerna run test --parallel",
+    "test:webapp": "lerna run test --scope=@demo/webapp --parallel"
   },
   "keywords": [],
   "author": "",
