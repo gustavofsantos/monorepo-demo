@@ -5,17 +5,10 @@
   "author": "Gustavo Santos <gustavo@after.sale>",
   "homepage": "",
   "license": "MIT",
-  "main": "lib/server.js",
+  "main": "dist/index.js",
   "private": true,
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
   "scripts": {
-    "dev": "ts-node index.ts",
+    "dev": "ts-node src/index.ts",
     "build": "tsc",
     "test": "echo No tests implemented yet at @demo/server"
   },

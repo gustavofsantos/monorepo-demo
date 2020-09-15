@@ -5,10 +5,15 @@
   "main": "index.js",
   "private": true,
   "scripts": {
+    "build:all": "lerna run build --parallel",
+    "build:server": "lerna run build --scope=@demo/server",
+    "build:webapp": "lerna run build --scope=@demo/webapp",
     "dev:all": "lerna run dev --parallel",
     "dev:server": "lerna run dev --scope=@demo/server",
+    "dev:webapp": "lerna run dev --scope=@demo/webapp",
     "test:all": "lerna run test --parallel",
-    "test:webapp": "lerna run test --scope=@demo/webapp --parallel"
+    "test:server": "lerna run test --scope=@demo/server",
+    "test:webapp": "lerna run test --scope=@demo/webapp"
   },
   "keywords": [],
   "author": "",
