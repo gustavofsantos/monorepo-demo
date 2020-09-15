@@ -15,7 +15,8 @@
     "test:all": "lerna run test --parallel",
     "test:commons": "lerna run test --scope=@demo/commons",
     "test:server": "lerna run test --scope=@demo/server",
-    "test:webapp": "lerna run test --scope=@demo/webapp"
+    "test:webapp": "lerna run test --scope=@demo/webapp",
+    "new-version": "lerna version --conventional-commits --yes"
   },
   "keywords": [],
   "author": "",
