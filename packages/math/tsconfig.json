@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["ES2016"],
+    "outDir": "./dist",
+    "rootDir": "./lib",
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true
+  }
+}
