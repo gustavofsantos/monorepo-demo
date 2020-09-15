@@ -1,6 +1,6 @@
 {
   "name": "monorepo-demo",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "lerna": "^3.22.1"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
