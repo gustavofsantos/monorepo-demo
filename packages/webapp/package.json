@@ -1,0 +1,12 @@
+{
+  "name": "@demo/webapp",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "dev": "",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
