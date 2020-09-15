@@ -5,6 +5,8 @@
   "main": "index.js",
   "private": true,
   "scripts": {
+    "dev:all": "lerna run dev --parallel",
+    "dev:server": "lerna run dev --scope=@demo/server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

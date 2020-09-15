@@ -15,8 +15,9 @@
     "lib"
   ],
   "scripts": {
-    "dev": "node dist/index.js",
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "dev": "ts-node index.ts",
+    "build": "tsc",
+    "test": "echo No tests implemented yet at @demo/server"
   },
   "dependencies": {
     "express": "^4.17.1",
