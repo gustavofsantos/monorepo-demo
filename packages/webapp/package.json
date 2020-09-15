@@ -1,6 +1,6 @@
 {
   "name": "@demo/webapp",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "",
   "keywords": [],
   "author": "",
@@ -12,7 +12,7 @@
     "serve": "serve -S dist"
   },
   "dependencies": {
-    "@demo/commons": "^0.0.1",
+    "@demo/commons": "^0.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
