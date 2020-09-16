@@ -20,4 +20,4 @@ jobs:
         run: npx lerna bootstrap
 
       - name: Run tests
-        run: yarn test:webapp
+        run: yarn test:webapp:ci

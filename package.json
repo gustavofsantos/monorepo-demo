@@ -14,9 +14,11 @@
     "dev:server": "lerna run dev --scope=@demo/server",
     "dev:webapp": "lerna run dev --scope=@demo/webapp",
     "test:all": "lerna run test --parallel",
+    "test:all:ci": "lerna run test:ci --parallel",
     "test:commons": "lerna run test --scope=@demo/commons",
     "test:server": "lerna run test --scope=@demo/server",
     "test:webapp": "lerna run test --scope=@demo/webapp",
+    "test:webapp:ci": "lerna run test:ci --scope=@demo/webapp",
     "new-version": "lerna version --conventional-commits --yes"
   },
   "keywords": [],

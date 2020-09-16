@@ -10,6 +10,7 @@
     "clean": "rimraf dist .cache tsconfig.tsbuildinfo",
     "build": "tsc",
     "test": "jest --watch",
+    "test:ci": "CI=true jest --bail",
     "serve": "serve -S dist"
   },
   "dependencies": {
