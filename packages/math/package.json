@@ -15,6 +15,7 @@
   ],
   "scripts": {
     "build": "tsc",
+    "prepublish": "yarn build",
     "test": "echo No tests implemented yet at @demo/math"
   }
 }
