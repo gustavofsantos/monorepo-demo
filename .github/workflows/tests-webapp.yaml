@@ -1,0 +1,23 @@
+name: webapp
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'packages/webapp/*'
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '14.x'
+
+      - name: Bootstrap lerna packages
+        run: npx lerna bootstrap
+
+      - name: Run tests
+        run: yarn test:webapp
