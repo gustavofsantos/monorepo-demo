@@ -20,6 +20,7 @@
     "test": "echo No tests implemented yet at @demo/math"
   },
   "devDependencies": {
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "typescript": "^4.0.2"
   }
 }
