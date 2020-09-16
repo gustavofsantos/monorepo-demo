@@ -9,6 +9,7 @@
     "build:commons": "lerna run build --scope=@demo/commons",
     "build:server": "lerna run build --scope=@demo/server",
     "build:webapp": "lerna run build --scope=@demo/webapp",
+    "clean:all": "lerna run clean --parallel",
     "dev:all": "lerna run dev --parallel",
     "dev:server": "lerna run dev --scope=@demo/server",
     "dev:webapp": "lerna run dev --scope=@demo/webapp",

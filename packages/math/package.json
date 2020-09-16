@@ -15,7 +15,11 @@
   ],
   "scripts": {
     "build": "tsc",
+    "clean": "rimraf dist tsconfig.tsbuildinfo",
     "prepublish": "yarn build",
     "test": "echo No tests implemented yet at @demo/math"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
   }
 }
