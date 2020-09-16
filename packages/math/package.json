@@ -16,7 +16,7 @@
   "scripts": {
     "build": "tsc",
     "clean": "rimraf dist tsconfig.tsbuildinfo",
-    "preinstall": "yarn build",
+    "preinstall": "tsc",
     "test": "echo No tests implemented yet at @demo/math"
   },
   "devDependencies": {
