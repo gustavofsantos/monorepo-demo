@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "parcel src/index.html --port=3001",
     "clean": "rimraf dist .cache tsconfig.tsbuildinfo",
-    "build": "tsc",
+    "build": "parcel build src/index.html",
     "test": "jest --watch",
     "test:ci": "CI=true jest --bail",
     "serve": "serve -S dist"
